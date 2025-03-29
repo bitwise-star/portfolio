@@ -150,3 +150,9 @@
   animation: wave 2.5s ease infinite;
   transform-origin: 70% 70%;
 }
+
+.container {
+  margin: auto;
+  padding: 2rem;
+  max-width: 1400px;
+}

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-      <main className="mt-20 min-w-max">
+      <main className="mt-20">
         <WelcomeContainer/>
       </main>
     </div>

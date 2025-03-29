@@ -2,7 +2,6 @@
 
 import type { PropsWithChildren } from "react";
 import { TerminalTitleDot } from "./termina-title-dot";
-import { useMobile } from "@/app/hooks/use-mobile";
 
 interface Props {
 	title: string;
@@ -22,9 +21,9 @@ const terminalDots: Array<ITerminalDotColors> = [
 
 export function Terminal({ title, children }: PropsWithChildren<Props>) {
 	return (
-		<div className="bg-black border-gray border rounded-md">
+		<div className="bg-black border-gray border rounded-md w-[100%]">
 			<div className="flex items-center gap-5 p-3 border-b-gray border-b">
-				<div className="flex gap-1 absolute">
+				<div className="flex gap-1">
 					{terminalDots.map((obj) => (
 						<TerminalTitleDot
 							key={obj.index}

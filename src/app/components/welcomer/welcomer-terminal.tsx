@@ -18,14 +18,12 @@ const terminalContent = [
 
 export function WelcomerTerminal() {
 	return (
-		<div>
-			<Terminal title="bitwisedev@localhost~">
-				{terminalContent.map(({ text, path, index }) => (
-					<TerminalLine key={index} path={path}>
-						{text}
-					</TerminalLine>
-				))}
-			</Terminal>
-		</div>
+    <Terminal title="bitwisedev@localhost~">
+      {terminalContent.map(({ text, path, index }) => (
+        <TerminalLine key={index} path={path}>
+          {text}
+        </TerminalLine>
+      ))}
+    </Terminal>
 	);
 }

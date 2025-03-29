@@ -8,17 +8,18 @@ export function Welcome() {
 	return (
 		<div>
 			<div className="flex items-center gap-1 mb-2 w-fit">
-				<FaMapMarkerAlt size={20} fill="#ff5990" className="animate-bounce"/>
-				<p className="font-['Roboto'] text-gray-300">Rio de Janeiro, Brazil</p>
+				<FaMapMarkerAlt size={20} fill="#ff5990" className="animate-bounce" />
+				<p className="font-['Roboto'] text-gray-300 text-sm sm:text-base md:text-lg">
+					Rio de Janeiro, Brazil</p>
 			</div>
-			<h1 className="text-4xl font-bold mb-4 w-fit">
+			<h1 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-4 w-fit">
 				<span className="text-white">Hello, I'm</span>{" "}
 				<span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
 					Bitwise Star
 				</span>{" "}
 				<span className="animate-wave inline-block">👋</span>
 			</h1>
-			<p className="text-gray-400 font-medium break-words text-2xl w-fit">
+			<p className="text-gray-400 font-medium break-words text-2xl ">
 				Full Stack Developer passionate about Node.js, Java, and Kotlin. Building innovative solutions since 2018.
 			</p>
 			<div className="flex flex-wrap gap-2 w-fit">
