@@ -1,5 +1,6 @@
 "use client";
 
+import { VscTerminalBash } from "react-icons/vsc";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import NavLink from "./nav-link";
@@ -38,27 +39,17 @@ const NavBar = () => {
 	return (
 		<header
 			className={cn(
-				"w-[100vw] fixed top-0 z-50 transition-all flex items-center",
+				"sticky top-0 z-50 transition-all flex items-center",
 				scrolled
 					? "bg-black/70 backdrop-blur-md border-b border-b-white"
 					: "bg-transparent",
 			)}
 		>
-			<div className="container flex m-auto p-5">
+			<div className="container flex m-auto pb-5 pt-5">
 				<div>
 					<div className={"flex items-center gap-2"}>
-						<div
-							className="w-10 h-10 bg-white mask mask-squircle"
-							style={{
-								WebkitMaskImage: `url('/terminal-bashsvg.svg')`,
-								maskImage: `url('/terminal-bashsvg.svg')`,
-								WebkitMaskRepeat: "no-repeat",
-								maskRepeat: "no-repeat",
-								WebkitMaskSize: "cover",
-								maskSize: "cover",
-							}}
-						/>
-						<h1 className="font-mono font-bold text-2xl text-gray-100 flex items-center">
+						<VscTerminalBash size={40}/>
+						<h1 className="font-mono font-semibold medium text-2xl text-gray-100 flex items-center">
 							<motion.span>{displayText}</motion.span>
 							<span
 								className="ml-0.75 w-2 h-5 inline-block bg-white animate-caret-blink"
