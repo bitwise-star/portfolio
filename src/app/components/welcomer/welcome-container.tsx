@@ -8,7 +8,7 @@ export function WelcomeContainer() {
 	const mobile = useMobile(768);
 
 	return (
-		<div className={`container m-auto ${!mobile ? "grid grid-cols-2 items-center gap-10" : "flex flex-col gap-10"}`}>
+		<div className={`container m-auto ${mobile ? "flex flex-col gap-10" : "grid grid-cols-2 items-center gap-10"}`}>
 			<Welcome />
 			<WelcomerTerminal />
 		</div>
