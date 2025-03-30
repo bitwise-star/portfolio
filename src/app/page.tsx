@@ -19,7 +19,7 @@ export default function Home() {
       transition={{ duration: 0.75, delay: 1 }}
     >
       <NavBar />
-      <main className="mt-20 flex flex-col gap-20 p-5">
+      <main className={`${isMobile ? "mt-5" : "mt-20"} flex flex-col gap-20 p-5`}>
         <WelcomeContainer/>
         <ProjectsContainer/>
       </main>

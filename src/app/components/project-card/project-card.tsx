@@ -18,6 +18,9 @@ export function ProjectCard({ title, description, link, starCount, children }: P
 			whileHover={{
 				scale: 1.02
 			}}
+			whileTap={{
+				scale: 1.02
+			}}
 		>
 			<div className="p-5 flex flex-col h-full">
 				<div className="flex items-center">
