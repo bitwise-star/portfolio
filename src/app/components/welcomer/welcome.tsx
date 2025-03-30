@@ -2,13 +2,12 @@
 
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Button from "@mui/material/Button";
-import GitHubIcon from '@mui/icons-material/GitHub';
 
 export function Welcome() {
 	return (
 		<div>
 			<div className="flex items-center gap-1 mb-2 w-fit">
-				<FaMapMarkerAlt size={20} fill="#ff5990" className="animate-bounce" />
+				<FaMapMarkerAlt size={20} fill="#ffffff" className="animate-bounce" />
 				<p className="font-['Roboto'] text-gray-300 text-sm sm:text-base md:text-lg">
 					Rio de Janeiro, Brazil</p>
 			</div>
@@ -34,7 +33,6 @@ export function Welcome() {
 							},
 						}}
 						variant="contained"
-						startIcon={<GitHubIcon />}
 					>
 						See my Github
 					</Button>
