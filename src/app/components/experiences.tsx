@@ -22,7 +22,7 @@ const experiences: Array<IExperienceCardData> = [
     {
         index: 2,
         title: "Game Developer (Scripter)",
-        description: "I work as a scripter on the Roblox platform, with solid experience in Luau scripting. In addition to development, I’ve also held administrative roles within game studios. I’ve been involved in projects as scripter and studio manager.",
+        description: "I work as a scripter on the Roblox platform, with solid experience in Luau scripting. In addition to development, I’ve also held administrative roles on game development studios.",
         technologies: ["Luau", "Documents", "Roblox API", "Managment", "Game Development"],
     },
 ];

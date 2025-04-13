@@ -11,13 +11,13 @@ export function Welcome() {
 				<p className="font-['Roboto'] text-gray-300 text-sm sm:text-base md:text-lg">
 					Rio de Janeiro, Brazil</p>
 			</div>
-			<h1 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-4 w-fit">
+			<h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-4 w-fit">
 				<span className="text-white">Hello, I'm</span>{" "}
 				<span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
 					Bitwise Star
 				</span>{" "}
 				<span className="animate-wave inline-block">👋</span>
-			</h1>
+			</h2>
 			<p className="text-gray-400 font-medium break-words text-2xl ">
 				Full Stack Developer passionate about Node.js, Java, and Kotlin. Building innovative solutions since 2018.
 			</p>
