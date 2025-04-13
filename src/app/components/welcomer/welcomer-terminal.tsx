@@ -9,11 +9,10 @@ const terminalContent = [
   { index: 5, text: "→ I'm 19 years old" },
   { index: 6, text: "→ I'm turning into a Full Stack developer, learning more about front-end development" },
   { index: 7, text: "→ My main programming languages are Javascript/Typescript" },
-  { index: 8, text: "→ I live in Brazil, Rio de Janeiro" },
+  { index: 8, text: "→ I live in Rio de Janeiro, Brazil" },
   { index: 9, text: "→ Studying Computer Science from home" },
   { index: 10, text: "→ I'm curious about hardware and robotics" },
   { index: 11, text: "→ I love creating automations and also create bots for Discord!" },
-  { index: 12, text: "" }
 ];
 
 export function WelcomerTerminal() {

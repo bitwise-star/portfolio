@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 
 export function useMobile(width: number) {
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState<boolean | undefined>(undefined);
 
   useEffect(() => {
     const checkIfMobile = () => {

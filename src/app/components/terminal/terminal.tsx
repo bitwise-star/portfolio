@@ -21,14 +21,14 @@ const terminalDots: Array<ITerminalDotColors> = [
 
 export function Terminal({ title, children }: PropsWithChildren<Props>) {
 	return (
-		<div className="bg-black border-gray border rounded-md w-[100%]">
+		<div className="bg-black border-gray border rounded-md w-full">
 			<div className="flex items-center gap-5 p-3 border-b-gray border-b">
-				<div className="flex gap-1">
+				<div className="flex absolute gap-1">
 					{terminalDots.map((obj) => (
 						<TerminalTitleDot
 							key={obj.index}
-							width={15}
-							height={15}
+							width={13}
+							height={13}
 							colorHex={obj.colorHex}
 							hoverColor={obj.hoverColor}
 						/>

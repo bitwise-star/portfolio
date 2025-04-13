@@ -1,9 +1,7 @@
 "use client";
 
 import { VscTerminalBash } from "react-icons/vsc";
-import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
-import NavLink from "./nav-link";
 import { motion, useMotionValue, useTransform } from "motion/react";
 import { animate } from "motion";
 
@@ -38,12 +36,7 @@ const NavBar = () => {
 
 	return (
 		<header
-			className={cn(
-				"sticky top-0 z-50 transition-all flex items-center",
-				scrolled
-					? "bg-black/70 backdrop-blur-md border-b border-b-white"
-					: "bg-transparent",
-			)}
+			className={`sticky top-0 z-50 transition-all flex items-center pl-5 pr-5 ${scrolled ? "bg-black/70 backdrop-blur-md border-b border-b-white" : "bg-transparent"}`}
 		>
 			<div className="container flex m-auto pb-5 pt-5">
 				<div>
@@ -57,12 +50,6 @@ const NavBar = () => {
 						</h1>
 					</div>
 				</div>
-				<nav className="flex gap-5 ml-auto items-center">
-					<NavLink href="/" name="About" />
-					<NavLink href="/" name="Projects" />
-					<NavLink href="/" name="Experience" />
-					<NavLink href="/" name="Contact" />
-				</nav>
 			</div>
 		</header>
 	);
