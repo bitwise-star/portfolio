@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Welcome to My Portfolio
 
-## Getting Started
+Hey there 👋! This is my personal portfolio built with **Next.js**, **TailwindCSS**, **Motion**, **TypeScript**, and powered by **Bun** for lightning-fast development.
 
-First, run the development server:
+Take a look around and see what I’ve been working on. Below you’ll find instructions to get up and run this project.
+
+<p align="center">
+  <img src="https://github.com/bitwise-star/portfolio/blob/chore/change-readme/assets/page.png" />
+</p>
+
+
+## 🚀 Getting Started
+
+To start the development server, make sure you have **Bun** installed. Then simply run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Head over to [http://localhost:3000](http://localhost:3000) in your browser to view the site.
+You can start editing the files and see your changes in real-time!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Build & Run in Production
 
-## Learn More
+To build this project you can use:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+bun build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Then, start the server using:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+bun start
+```
 
-## Deploy on Vercel
+## 📦 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Here’s a quick peek at the tools that bring this portfolio to life:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **🧬 Next.js** – Powerfull react framework
+- **🎨 TailwindCSS** – Styles
+- **🎞️ Motion** – Animations
+- **📘 TypeScript** – Programming language
+- **🥖 Bun** – Super fast runtime and package manager
+
+## 💬 Let’s Connect
+
+If you want to chat about dev stuff or contact me about other things:
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/alice-developer/)
+- 💬 [Discord](https://discordapp.com/users/1246891471551074428)
+
+
+### 💖 Thanks for Viewing!
+
+Don’t forget to star the repo if you liked it! 🌟
