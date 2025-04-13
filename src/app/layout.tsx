@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./css/globals.css";
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -30,6 +31,7 @@ export default function RootLayout({
         <meta name="twitter:image" content="ttps://github.com/bitwise-star/portfolio/blob/main/assets/page.png"/>
       </head>
       <body className={"antialiased dark"}>
+        <SpeedInsights/>
         {children}
       </body>
     </html>
