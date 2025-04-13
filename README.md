@@ -1,12 +1,12 @@
 # ✨ Welcome to My Portfolio
 
-<p align="center">
-  <img src="https://github.com/bitwise-star/portfolio/blob/chore/change-readme/assets/page.png" />
-</p>
-
 Hey there 👋! This is my personal portfolio built with **Next.js**, **TailwindCSS**, **Motion**, **TypeScript**, and powered by **Bun** for lightning-fast development.
 
 Take a look around and see what I’ve been working on. Below you’ll find instructions to get up and run this project.
+
+<p align="center">
+  <img src="https://github.com/bitwise-star/portfolio/blob/chore/change-readme/assets/page.png" />
+</p>
 
 
 ## 🚀 Getting Started
