@@ -13,6 +13,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Bitwise Star</title>
+        <meta name="description" content="Full Stack and Roblox Game Developer who loves to code a lot of stuff. Welcome to my portfolio!"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta property="og:title" content="Bitwise Star"/>
         <meta property="og:description" content="Full Stack and Roblox Game Developer who loves to code a lot of stuff. Welcome to my portfolio!"/>
         <meta property="og:type" content="website"/>
