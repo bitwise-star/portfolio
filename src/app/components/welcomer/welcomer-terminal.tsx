@@ -13,7 +13,6 @@ const terminalContent = [
   { index: 9, text: "→ Studying Computer Science from home" },
   { index: 10, text: "→ I'm curious about hardware and robotics" },
   { index: 11, text: "→ I love creating automations and also create bots for Discord!" },
-  { index: 12, text: "" }
 ];
 
 export function WelcomerTerminal() {

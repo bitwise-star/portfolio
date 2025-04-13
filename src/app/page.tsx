@@ -1,10 +1,12 @@
 "use client"
 
 import { motion } from "motion/react";
-import NavBar from "@/app/components/nav/nav-bar";
+import NavBar from "@/app/components/nav-bar";
 import { WelcomeContainer } from "./components/welcomer/welcome-container";
-import { ProjectsContainer } from "./components/projects/projects-container";
+import { Projects } from "./components/projects";
 import { useMobile } from "./hooks/use-mobile";
+import { Experiences } from "./components/experiences";
+import { Footer } from "./components/footer";
 
 export default function Home() {
   const isMobile = useMobile(768);
@@ -21,8 +23,10 @@ export default function Home() {
       <NavBar />
       <main className={`${isMobile ? "mt-5" : "mt-20"} flex flex-col gap-20 p-5`}>
         <WelcomeContainer/>
-        <ProjectsContainer/>
+        <Projects/>
+        <Experiences/>
       </main>
+      <Footer/>
     </motion.div>
   );
 }

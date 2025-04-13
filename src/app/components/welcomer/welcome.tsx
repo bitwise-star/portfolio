@@ -1,7 +1,7 @@
 "use client"
 
-import { FaMapMarkerAlt } from "react-icons/fa";
-import Button from "@mui/material/Button";
+import { FaDiscord, FaGithub, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
+import { LinkButton } from "../link-button";
 
 export function Welcome() {
 	return (
@@ -21,22 +21,28 @@ export function Welcome() {
 			<p className="text-gray-400 font-medium break-words text-2xl ">
 				Full Stack Developer passionate about Node.js, Java, and Kotlin. Building innovative solutions since 2018.
 			</p>
-			<div className="flex flex-wrap gap-2 w-fit">
-				<a href="https://github.com/bitwise-star" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-					<Button
-						sx={{
-							background: 'linear-gradient(to right, #374151, #1f2937)',
-							marginTop: 2,
-							color: 'white',
-							'&:hover': {
-								background: 'linear-gradient(to right, #4b5563, #374151)',
-							},
-						}}
-						variant="contained"
-					>
-						See my Github
-					</Button>
-				</a>
+			<div className="flex flex-wrap gap-2 w-fit mt-5">
+				<LinkButton
+					href="https://discordapp.com/users/1246891471551074428"
+					title="Discord"
+					gradientLeft="#423fe0"
+					gradientRight="#0b1675"
+					icon={<FaDiscord/>}
+				/>
+				<LinkButton
+					href="https://www.linkedin.com/in/alice-developer/"
+					title="Linkedin"
+					gradientLeft="#3f7de0"
+					gradientRight="#0b3775"
+					icon={<FaLinkedin/>}
+				/>
+				<LinkButton
+					href="https://github.com/bitwise-star"
+					title="Github"
+					gradientLeft="#6d6d6d"
+					gradientRight="#2e2e2e"
+					icon={<FaGithub/>}
+				/>
 			</div>
 		</div>
 	);

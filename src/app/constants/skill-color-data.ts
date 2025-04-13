@@ -10,6 +10,31 @@ export const SkillColorData: Record<string, IColorData> = {
         borderColor: "#3e87ca",
         textColor: "#ffffff"
     },
+    "Luau": {
+        backgroundColor: "#1e466b",
+        borderColor: "#3e87ca",
+        textColor: "#ffffff"
+    },
+    "Documents": {
+        backgroundColor: "#1e6b1e",
+        borderColor: "#3eca4a",
+        textColor: "#ffffff"
+    },
+    "Roblox API": {
+        backgroundColor: "#6b1e1e",
+        borderColor: "#ca3e3e",
+        textColor: "#ffffff"
+    },
+    "Game Development": {
+        backgroundColor: "#6b361e",
+        borderColor: "#ca633e",
+        textColor: "#ffffff"
+    },
+    "Managment": {
+        backgroundColor: "#6b281e",
+        borderColor: "#ca4e3e",
+        textColor: "#ffffff"
+    },
     "SQLite": {
         backgroundColor: "#6b1e1e",
         borderColor: "#ca3e3e",

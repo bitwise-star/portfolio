@@ -7,11 +7,13 @@ import type { PropsWithChildren } from "react";
 interface Props {
 	title: string;
 	description: string;
-	link: string;
+	link?: string;
+	hideButton?: boolean;
 	starCount?: number;
+	buttonText?: string;
 }
 
-export function ProjectCard({ title, description, link, starCount, children }: PropsWithChildren<Props>) {
+export function Card({ title, description, link, starCount, hideButton, buttonText, children }: PropsWithChildren<Props>) {
 	return (
 		<motion.div
 			className="w-full bg-[#0e0e0f] border-gray border-1 rounded-[8px] hover:border-gray-400 transition-all"
@@ -19,7 +21,8 @@ export function ProjectCard({ title, description, link, starCount, children }: P
 				scale: 1.02
 			}}
 			whileTap={{
-				scale: 1.02
+				scale: 1.02,
+				borderColor: "#ffffff"
 			}}
 		>
 			<div className="p-5 flex flex-col h-full">
@@ -32,16 +35,21 @@ export function ProjectCard({ title, description, link, starCount, children }: P
 						</div> : ""
 					}
 				</div>
-				<p className="font-medium text-1xl text-gray-400">{description}</p>
-				<div className="flex flex-wrap gap-2 mt-3 mb-5 w-full">
+				<p className="font-medium text-1xl text-gray-400 mb-3">{description}</p>
+				<div className="flex flex-wrap gap-2 mt-auto w-full">
 					{children}
 				</div>
-				<a
-					className="font-medium bg-white text-black hover:bg-gray-200 text-center rounded-[2px] mt-auto p-2 w-full block"
-					href={link}
-				>
-					View project
-				</a>
+				{!hideButton ?
+					<a
+						className="font-medium bg-white text-black hover:bg-gray-200 text-center rounded-[2px] mt-5 p-2 w-full block"
+						href={link}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{buttonText ? buttonText : "View"}
+					</a>
+					: ""
+				}
 			</div>
 		</motion.div>
 	)
