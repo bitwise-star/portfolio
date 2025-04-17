@@ -1,4 +1,4 @@
-import { SkillColorData } from "@/app/constants/skill-color-data"
+import { SkillColorData } from "@/constants/skill-color-data"
 import { SkillLabel } from "./skill-label";
 
 interface Props {

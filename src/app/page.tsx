@@ -1,12 +1,12 @@
 "use client"
 
 import { motion } from "motion/react";
-import NavBar from "@/app/components/nav-bar";
-import { WelcomeContainer } from "./components/welcomer/welcome-container";
-import { Projects } from "./components/projects";
-import { useMobile } from "./hooks/use-mobile";
-import { Experiences } from "./components/experiences";
-import { Footer } from "./components/footer";
+import NavBar from "@/components/nav-bar";
+import { WelcomeContainer } from "../components/welcomer/welcome-container";
+import { Projects } from "../components/projects";
+import { useMobile } from "../hooks/use-mobile";
+import { Experiences } from "../components/experiences";
+import { Footer } from "../components/footer";
 
 export default function Home() {
   const isMobile = useMobile(768);

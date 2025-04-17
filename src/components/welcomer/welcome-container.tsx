@@ -1,8 +1,8 @@
 "use client"
 
-import { useMobile } from "@/app/hooks/use-mobile";
-import { Welcome } from "../welcomer/welcome";
-import { WelcomerTerminal } from "../welcomer/welcomer-terminal";
+import { useMobile } from "@/hooks/use-mobile";
+import { Welcome } from "./welcome";
+import { WelcomerTerminal } from "./welcomer-terminal";
 
 export function WelcomeContainer() {
 	const mobile = Boolean(useMobile(1024));

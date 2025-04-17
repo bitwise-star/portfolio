@@ -1,6 +1,6 @@
 "use client"
 
-import { useMobile } from "@/app/hooks/use-mobile";
+import { useMobile } from "@/hooks/use-mobile";
 import { WebSection } from "./web-section";
 import { Card } from "./card";
 import { Skill } from "./skill-label/skill";
